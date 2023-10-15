@@ -19,7 +19,7 @@ If the python package is hosted on Github, you can install directly from Github
 
 ```sh
 # from pypi
-pip install billingo_python
+pip install clientapi_billingo
 
 # from source
 pip install git+https://github.com/client-api/billingo-python.git
