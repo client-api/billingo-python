@@ -1,6 +1,8 @@
 # SpendingListItem
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** |  | [optional] 
@@ -22,5 +24,23 @@ Name | Type | Description | Notes
 **comment** | **str** |  | [optional] 
 **is_created_by_nav** | **bool** |  | [optional] 
 
+## Example
+
+```python
+from clientapi_billingo.models.spending_list_item import SpendingListItem
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of SpendingListItem from a JSON string
+spending_list_item_instance = SpendingListItem.from_json(json)
+# print the JSON string representation of the object
+print(SpendingListItem.to_json())
+
+# convert the object into a dict
+spending_list_item_dict = spending_list_item_instance.to_dict()
+# create an instance of SpendingListItem from a dict
+spending_list_item_from_dict = SpendingListItem.from_dict(spending_list_item_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 

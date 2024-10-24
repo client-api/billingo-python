@@ -1,0 +1,8 @@
+# TODO: java -jar openapi-generator-cli.jar \
+#    generate \
+#       -i "./Billingo-Billingo-3.0.14-resolved.json" \
+#       -g python \
+#       -o "billingo-python" \
+#       --git-user-id client-api \
+#       --git-repo-id billingo-python \
+#       --additional-properties=packageName=clientapi_billingo,packageVersion=1.0.1

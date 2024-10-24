@@ -1,6 +1,8 @@
 # Spending
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** |  | [optional] 
@@ -21,5 +23,23 @@ Name | Type | Description | Notes
 **payment_method** | [**SpendingPaymentMethod**](SpendingPaymentMethod.md) |  | [optional] 
 **comment** | **str** |  | [optional] 
 
+## Example
+
+```python
+from clientapi_billingo.models.spending import Spending
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of Spending from a JSON string
+spending_instance = Spending.from_json(json)
+# print the JSON string representation of the object
+print(Spending.to_json())
+
+# convert the object into a dict
+spending_dict = spending_instance.to_dict()
+# create an instance of Spending from a dict
+spending_from_dict = Spending.from_dict(spending_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 

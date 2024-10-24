@@ -1,6 +1,8 @@
 # SpendingSave
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **currency** | [**Currency**](Currency.md) |  | 
@@ -19,5 +21,23 @@ Name | Type | Description | Notes
 **payment_method** | [**SpendingPaymentMethod**](SpendingPaymentMethod.md) |  | 
 **partner_id** | **int** |  | [optional] 
 
+## Example
+
+```python
+from clientapi_billingo.models.spending_save import SpendingSave
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of SpendingSave from a JSON string
+spending_save_instance = SpendingSave.from_json(json)
+# print the JSON string representation of the object
+print(SpendingSave.to_json())
+
+# convert the object into a dict
+spending_save_dict = spending_save_instance.to_dict()
+# create an instance of SpendingSave from a dict
+spending_save_from_dict = SpendingSave.from_dict(spending_save_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 
