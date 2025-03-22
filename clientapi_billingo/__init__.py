@@ -15,7 +15,7 @@
 """  # noqa: E501
 
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"
 
 # import apis into sdk package
 from clientapi_billingo.api.bank_account_api import BankAccountApi

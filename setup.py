@@ -22,7 +22,7 @@ from setuptools import setup, find_packages  # noqa: H301
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
 NAME = "clientapi-billingo"
-VERSION = "2.0.0"
+VERSION = "2.1.0"
 PYTHON_REQUIRES = ">= 3.8"
 REQUIRES = [
     "urllib3 >= 1.25.3, < 3.0.0",
@@ -37,7 +37,7 @@ setup(
     description="Billingo API v3",
     author="Billingo Support",
     author_email="hello@billingo.hu",
-    url="",
+    url="https://github.com/client-api/billingo-python",
     keywords=["OpenAPI", "OpenAPI-Generator", "Billingo API v3"],
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),

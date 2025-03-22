@@ -107,9 +107,9 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -181,9 +181,9 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -255,9 +255,9 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1131,10 +1131,10 @@ class SpendingApi:
             '400': "ClientErrorResponse",
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1205,10 +1205,10 @@ class SpendingApi:
             '400': "ClientErrorResponse",
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1279,10 +1279,10 @@ class SpendingApi:
             '400': "ClientErrorResponse",
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1418,10 +1418,10 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1497,10 +1497,10 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1576,10 +1576,10 @@ class SpendingApi:
             '401': "ClientErrorResponse",
             '402': "SubscriptionErrorResponse",
             '403': "ClientErrorResponse",
-            '404': "ClientErrorResponse",
             '422': "ValidationErrorResponse",
             '429': "TooManyRequestsResponse",
             '500': "ServerErrorResponse",
+            '404': "ClientErrorResponse",
         }
         response_data = self.api_client.call_api(
             *_param,
